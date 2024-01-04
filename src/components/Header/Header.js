@@ -76,7 +76,7 @@ const MainHeader = styled.div`
 
 const Nav = styled.nav`
   display: flex;
-  gap: 48px;
+  gap: clamp(1rem, 5.7vw - 2.25rem, 3rem);
   margin: 0px 48px;
 
   @media ${QUERIES.tabletAndDown} {
